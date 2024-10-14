@@ -5,9 +5,7 @@
 핸드폰 카메라를 통해 Face detection!
 
 code:
-<pre>
-<code>
-
+```
 import cv2
 from mediapipe import solutions
 from mediapipe.framework.formats import landmark_pb2
@@ -113,6 +111,4 @@ while cap.isOpened():
 
 cap.release()
 cv2.destroyAllWindows()
-  
-</code>
-</pre>
+```
