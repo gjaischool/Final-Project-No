@@ -4,6 +4,10 @@
 ## How?
 핸드폰 카메라를 통해 Face detection!
 
+
+
+
+### 아래의 코드 목적 : opencv와 mediapipe를 결합하여 노트북에 내장된 캠을 통해 눈의 EAR 값을 좌측 상단에 표시하며 눈을 0.5초 이상 감겨 있으면 WARNING! 라는 문구를 우측 상단에 표시
 code:
 ```
 import cv2
@@ -100,7 +104,7 @@ while cap.isOpened():
 
             # 경고 문구 화면에 표시
             if warning_displayed:
-                cv2.putText(frame, 'WARNING: Eyes closed!', (frame.shape[1] - 300, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255), 2)
+                cv2.putText(frame, 'WARNING!', (frame.shape[1] - 300, 50), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255), 2)
 
     # 결과 출력
     cv2.imshow('MediaPipe Face Mesh with Blink Detection', frame)
