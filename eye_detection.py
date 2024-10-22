@@ -23,7 +23,7 @@ def calculate_EAR(eye_landmarks, landmarks, image_shape):
 EAR_THRESHOLD = 0.2
 
 # 휴대폰 앱의 IP 주소와 포트 번호
-phone_ip = '192.168.80.145' 
+phone_ip = 휴대폰_IP주소' 
 phone_port = 8080  # 앱에서 사용하는 포트 번호
 alert_start_url = f'http://{phone_ip}:{phone_port}/alert/start'
 alert_stop_url = f'http://{phone_ip}:{phone_port}/alert/stop'
