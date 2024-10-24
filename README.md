@@ -10,4 +10,6 @@
 ### eye_detection_for_streamlit.py  
 : Streamlit을 이용하여 사진 촬영하면 촬영된 사진에 EAR 값 및 감겨있으면 WARNING! 문구 표시  
 ### cv2_DNN_detection.py  
-: cv2.dnn 활용하여 얼굴 탐지. 사용시 models폴더 내에 있는 2개의 파일 활용해야함
+: cv2.dnn 활용하여 얼굴 탐지. 사용시 models폴더 내에 있는 2개의 파일 활용해야함  
+### eye_detection_take_a_picture.py   
+: streamlit 활용하여 실시간이 아닌 기기의 카메라를 통해 사진을 찍게되면 촬영된 사진에 EAR 및 WARNING! 표시 
